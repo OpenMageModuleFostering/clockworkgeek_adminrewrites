@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>Clockworkgeek_Adminrewrites</name>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <stability>stable</stability>
-    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <license>OSL-3.0</license>
     <channel>community</channel>
     <extends/>
-    <summary>Enables URL rewriting for admin which removes "index.php".</summary>
-    <description>Enables URL rewriting for admin which removes "index.php".</description>
-    <notes>Tested to Magento 1.9.0.1</notes>
-    <authors><author><name>Clockworkgeek</name><user>nonproffessional</user><email>daniel@clockworkgeek.com</email></author></authors>
-    <date>2014-11-02</date>
-    <time>13:15:28</time>
-    <contents><target name="magecommunity"><dir name="Clockworkgeek"><dir name="Adminrewrites"><dir name="Model"><file name="Store.php" hash="e344e673fe0a1abe62a2dbcfa5bf9147"/></dir><dir name="etc"><file name="config.xml" hash="144f6a8c400f8b89be8c4e4d74f5d317"/><file name="system.xml" hash="2d9cc09afe7434f00468fa5465cacf56"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Clockworkgeek_Adminrewrites.xml" hash="e1851f89766d6031ca1e0e100d7b588c"/></dir></target><target name="magelocale"><dir name="en_US"><file name="Clockworkgeek_Adminrewrites.csv" hash="867e78301664113b1819971035d528b1"/></dir></target></contents>
+    <summary>Enables URL rewriting for admin which removes 'index.php'</summary>
+    <description/>
+    <notes>PHP &lt;5.3 compatibility</notes>
+    <authors><author><name>Daniel Deady</name><user>daniel</user><email>daniel@clockworkgeek.com</email></author></authors>
+    <date>2015-08-12</date>
+    <time>11:27:50</time>
+    <contents><target name="mageweb"><dir name="."><file name=".gitignore" hash="3e34e53292e6eeb708547b83509edc77"/><file name="README.md" hash="2abecaeec42d83fd0d298f5eb68ad7ce"/><file name="composer.json" hash="79d36c42ca5c8fd025763805f1e66b36"/><file name="modman" hash="87da0981a539c952edd907f9ee28b5f5"/></dir><dir name="var"><dir name="connect"><file name="Clockworkgeek_Adminrewrites.xml" hash="2d9fc21a14ab0b8c3cebb06eb2340e26"/></dir></dir></target><target name="magecommunity"><dir name="Clockworkgeek"><dir name="Adminrewrites"><dir name="Model"><file name="Store.php" hash="0f6f064cdc775e9f7994001ab915e595"/></dir><dir name="etc"><file name="config.xml" hash="d142472805d38f5221fa91fedb9758bd"/><file name="system.xml" hash="2d9cc09afe7434f00468fa5465cacf56"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Clockworkgeek_Adminrewrites.xml" hash="e1851f89766d6031ca1e0e100d7b588c"/></dir></target><target name="magelocale"><dir name="en_US"><file name="Clockworkgeek_Adminrewrites.csv" hash="867e78301664113b1819971035d528b1"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

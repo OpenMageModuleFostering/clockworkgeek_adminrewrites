@@ -1,12 +1,12 @@
 {
     "name": "OpenMageModuleFostering/Clockworkgeek_Adminrewrites",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "OSL-3.0",
     "homepage": "",
-    "description": "Enables URL rewriting for admin which removes "index.php".",
+    "description": "Enables URL rewriting for admin which removes 'index.php'",
     "authors": [
     {
-        "name": "Clockworkgeek",
+        "name": "Daniel Deady",
         "email": "daniel@clockworkgeek.com"
     }
 ],

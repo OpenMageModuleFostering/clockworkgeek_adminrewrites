@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Enables URL rewriting for admin which removes 'index.php'

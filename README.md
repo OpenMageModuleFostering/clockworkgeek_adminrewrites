@@ -1,22 +1,22 @@
-Admin Rewrites allows you to enable URL rewriting for Magento's admin if the server supports it.
+## Original Package Description
 
-This means URLs that look like this:
+Enables URL rewriting for admin which removes 'index.php'
 
-    http://www.example.com/index.php/admin/index/index/
 
-Can now look like this instead:
+## Disclaimer
 
-    http://www.example.com/admin/
+This is a Repository imported from the Magento Marketplace, formerly known as Magento connect.
+The purpose is, to archive them in a permanent way, you can read more about it in our blogbost: https://openmage.github.io/2019/08/18/new-home-magento-connect-modules.html
+There is a chance, this repository misses some of the newer version.
+We rely on our users to inform us about newer Releases. And if they can provide them to us, this would be even better.
 
-**Beware!** Incorrect use could lock you out of admin and left unable to reverse the setting.
-Should this happen you can still reach the Connect Manager by typing it's address directly:
+### The original source is already on a public Git?
 
-    http://www.example.com/downloader/
+Please also inform us about them, then we can mark our repository as discontinued and refer to the other Repository.
 
-To install, get your extension key from [the Connect Marketplace](http://www.magentocommerce.com/magento-connect/admin-rewrites.html) or composer users can enter this command:
+### Contact us
 
-    composer config repositories.firegento composer http://packages.firegento.com
-    composer require clockworkgeek/admin-rewrites
+the easiest way is to create an Issue here, we have an eye on them.
 
-If you wish to edit this code then copy these files to an installed Magento directory, the package XML file is included so it will be available from _System > Magento Connect > Package Extensions > Load Local Package_.
-You can then update and re-package as necessary.
+Alternative you can try to contact @Flyingmana directly.
+ 

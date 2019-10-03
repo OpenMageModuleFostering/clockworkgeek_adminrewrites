@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Clockworkgeek_Adminrewrites",
+    "name": "OpenMageModuleFostering\/Clockworkgeek_Adminrewrites",
     "type": "magento-module",
     "license": "OSL-3.0",
     "homepage": "",
     "description": "Enables URL rewriting for admin which removes 'index.php'",
     "authors": [
-    {
-        "name": "Daniel Deady",
-        "email": "daniel@clockworkgeek.com"
-    }
-],
+        {
+            "name": "Daniel Deady",
+            "email": "daniel@clockworkgeek.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
